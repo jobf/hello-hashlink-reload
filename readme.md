@@ -23,6 +23,10 @@ To do the initial build and copy the export run `./_boot`
 
 To rebuild the bytecode and copy it to the 'safe' export folder run `./_refresh`
 
+### Windows versions
+
+Use `.\_boot.bat` and `.\_refresh.bat`
+
 ## Example
 
 In `Main.hx` it checks if bytecode reload has happened each update and if it does then the reload function is called which traces a message.
