@@ -1,0 +1,3 @@
+lime build hl
+cp -a Export/hl/bin Export/hl-reload && cd Export/hl-reload
+./HelloWorld --hot-reload &
